@@ -294,6 +294,10 @@ return [
     */
 
     'menu' => [
+        [
+            'type' => 'darkmode-widget',
+            'topnav_right' => true,     // Or "topnav => true" to place on the left.
+        ],
         // Navbar items:
         [
             'type' => 'navbar-search',
@@ -542,4 +546,9 @@ return [
     */
 
     'livewire' => false,
+
+    [
+        'type' => 'darkmode-widget',
+        'topnav_right' => true,     // Or "topnav => true" to place on the left.
+    ]
 ];
